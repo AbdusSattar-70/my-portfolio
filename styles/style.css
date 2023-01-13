@@ -1,0 +1,36 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500&display=swap');
+
+body {
+  font-family: 'Crete Round', serif;
+  font-family: 'Inter', sans-serif;
+}
+
+/* navbar container style */
+.navbar-container {
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 375px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  background: #3C3A39;
+}
+
+header h1 {
+  color: white;
+}
+
+nav li {
+  list-style-type: none;
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+}
