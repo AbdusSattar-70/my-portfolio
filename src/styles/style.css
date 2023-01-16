@@ -1,39 +1,36 @@
-/* import google font */
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500&display=swap');
-
-body {
-  font-family: 'Crete Round', serif;
-  font-family: 'Inter', sans-serif;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/* navbar container style */
-.navbar-container {
-  position: absolute;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
+/* ------------navbar  style ------------ */
+
+.navbar-container .logo-toggler-cont {
   width: 375px;
   height: 92px;
-  display: flex;
-  justify-content: space-around;
+}
+.logo-toggler-cont {
+  position: sticky;
+  top: 0;
   background-color: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.branding-logo {
+  border: 1px solid red;
 }
 
-/* headline style */
-
-header h1 {
-  color: white;
+.nav-toggler {
+  border: 1px solid goldenrod;
 }
 
-nav li {
-  list-style-type: none;
-  display: none;
-}
-
-nav a {
-  text-decoration: none;
-}
+/* ------------------------
+.headline-container style
+----------------------------*/
 
 .headline-container {
   display: flex;
@@ -43,6 +40,9 @@ nav a {
   width: 375px;
   height: 590px;
   background-color: black;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-image: url('/media/images/headline.png');
 }
 
 .social-media-logo ul {
@@ -75,10 +75,4 @@ nav a {
 .headline-text p {
   color: rgb(250, 245, 245);
   font-size: 10px;
-}
-
-.headline-image img {
-  width: 300px;
-  height: 200px;
-  margin: 250px 99px;
 }
